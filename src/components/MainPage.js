@@ -62,7 +62,7 @@ useEffect(() => {
   const fetchTickerData = async () => {
     try {
       setLoading(true);
-      const response = await fetch(`http://localhost:3001/api/ticker?firstCurrency=${firstCurrency.toLowerCase()}`);
+      const response = await fetch(`https://api-a88a.onrender.com/api/ticker?firstCurrency=${firstCurrency.toLowerCase()}`);
       const data = await response.json();
 
       // Wrap the single object in an array

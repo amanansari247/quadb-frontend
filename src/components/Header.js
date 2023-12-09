@@ -27,7 +27,7 @@ export const Header = (props) => {
     // Fetch base units from the API
     const fetchBaseUnits = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/baseunit');
+        const response = await fetch('https://api-a88a.onrender.com/api/baseunit');
         const data = await response.json();
         setBaseUnits(data);
       } catch (error) {
