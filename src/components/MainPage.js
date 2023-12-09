@@ -30,7 +30,7 @@ const currencyPair = pathname.substring(1);
 const currencies = currencyPair.split('-');
 
 
-const firstCurrency = currentURL === "http://localhost:3000/" ? "BTC" : currencies[0];
+const firstCurrency = currentURL === "https://amanquadb-frontend.vercel.app/" ? "BTC" : currencies[0];
 
 
 
